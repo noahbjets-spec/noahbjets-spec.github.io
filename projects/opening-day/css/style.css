@@ -7,6 +7,9 @@ White: FFFFFC
 body {
     /* TODO: Set font-family, font-size, color (black), 
     margin for entire page */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #090b0b;
 
 }
 
@@ -16,23 +19,27 @@ footer {
     /* TODO: Style header with background-color (black), color (white), 
     text-align, padding -- 
     footer is comma deliniated because it takes the same styles*/
-
+    background-color: #090b0b;
+    color: #fffffc;
+    text-align: center;
+    padding: 2em;
+    margin: 0;
 }
 
 .date-time {
     /* TODO: Make the date-time orange, uppercase, and bold */
-
+    color: #ffa500;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* ===== MAIN CONTENT ===== */
 h2 {
-    /* TODO: Style the h2 (orange) -- 
-    this will carry thru to all h2 elements, including the header*/
-
+    color: #ffa500;
 }
 
 main {
-    /* TODO: Add margin to main content area */
+    margin: 1m;
 
 }
 
@@ -42,26 +49,44 @@ a {
 
 .intro {
     /* TODO: Set font-size for lead-in paragraph to 1.25x the body font size (em) */
+    margin: 1.25em;
 
 }
 
 /* ===== TICKETS SUBSECTION (BUTTON) ===== */
 .tickets {
     /* TODO: Set line-height to 2, text-align center, and add margin (top and bottom) */
+    line-height: 2;
+    text-align: center;
+
 }
 
 .tickets a {
     /* TODO: Sets styling for button link - add padding (all sides), 
     background-color, color, and text-decoration (none) */
+    background-color: #090b0b;
+    padding: 10px 10px 10px 10px;
+    color: #fffffc;
+    text-decoration: none;
+
+
 }
+
 
 /* ===== GAME DETAILS SECTION (ORANGE BOX) ===== */
 .game-details {
     /* TODO: Style the game-details section with orange background, white text, 
     centered alignment, padding, and margin */
+    background-color: #ffa500;
+    color: #fffffc;
+    align-items: center;
+    padding: .5em;
+    margin: .1em;
 }
 
 /* ===== FAQs SECTION ===== */
 .faq {
     /* TODO: Add an orange left border and padding to the list section */
+    border-left: #ffa500;
+    padding: .5em;
 }
