@@ -1,0 +1,16 @@
+body {
+   font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+   font-family: "Playfair Display", serif;
+}
+.black-box {
+  background-color: #071923;
+  color: #FFFFFF;
+  padding: 40px;
+  text-align: center;
+  margin: 40px 0;
+}    
