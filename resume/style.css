@@ -1,0 +1,28 @@
+.bungee {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: blue;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #f8f6f0;
+}
+
+.resume {
+    margin: 20px;
+}
+
+.resume p,
+.resume li,
+.resume h2 {
+    font-family: "Outfit", sans-serif;
+    color: blue;
+}
