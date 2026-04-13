@@ -1,0 +1,38 @@
+body {
+    background: black;
+    color: white;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+h1 {
+    font-family: "Prompt", sans-serif;
+    margin: 80px 0;
+}
+
+section {
+    margin: 50px 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+em {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.box {
+    background: #e9e9e9;
+    color: black;
+    padding: 30px;
+}
+
+a {
+    color: yellow;
+}
