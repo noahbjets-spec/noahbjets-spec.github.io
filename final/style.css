@@ -59,12 +59,10 @@
         padding: 22px;
         margin-bottom: 20px;
         border-top: 5px solid red;
-        transition: transform .2s ease;
+        
     }
 
-    .numbercard:hover {
-        transform: translateY(-4px);
-    }
+    
 
     .numbercard h3 {
         color: red;
@@ -92,14 +90,10 @@
         padding: 20px;
         margin-bottom: 20px;
         border-top: 4px solid blue;
-        transition: background .2s ease;
+       
     }
 
-    .kiayearcard:hover {
-        background-color: lightgray;
-    }
-
-    .kiayearcard h3 {
+        .kiayearcard h3{
         color: yellow;
         font-weight: 800;
     }
