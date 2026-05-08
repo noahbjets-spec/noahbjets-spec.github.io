@@ -1,0 +1,149 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        color: black;
+        line-height: 1.6;
+    }
+
+    .dcautotop {
+        background: linear-gradient(to bottom, black, darkgray);
+        color: white;
+        padding: 60px 0;
+        border-bottom: 6px solid red;
+    }
+
+    .dcautotop h1 {
+        font-size: 2.8rem;
+        font-weight: 800;
+        line-height: 1.1;
+    }
+
+    .crimedatalabel {
+        font-size: .8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: lightgray;
+    }
+
+    .dek {
+        font-size: 1.25rem;
+        margin-top: 15px;
+        max-width: 650px;
+    }
+
+    .storycopy {
+        background-color: white;
+        padding: 45px 0;
+    }
+
+    .storycopy p {
+        font-size: 1.08rem;
+        margin-bottom: 18px;
+        max-width: 700px;
+    }
+
+    .contextnote {
+        background-color: lightblue;
+        padding: 20px;
+        border-left: 5px solid red;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .keynumbers {
+        padding: 45px 0;
+        background-color: lightgray;
+    }
+
+    .numbercard {
+        background-color: white;
+        padding: 22px;
+        margin-bottom: 20px;
+        border-top: 5px solid red;
+        transition: transform .2s ease;
+    }
+
+    .numbercard:hover {
+        transform: translateY(-4px);
+    }
+
+    .numbercard h3 {
+        color: red;
+        font-size: 2.2rem;
+        font-weight: 800;
+    }
+
+    .chart {
+        background-color: lightgray;
+        padding: 50px 0;
+    }
+
+    .chart img {
+        border-radius: 6px;
+    }
+
+    .trendtimeline {
+        background-color: darkred;
+        color: white;
+        padding: 50px 0;
+    }
+
+    .kiayearcard {
+        background-color: gray;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-top: 4px solid blue;
+        transition: background .2s ease;
+    }
+
+    .kiayearcard:hover {
+        background-color: lightgray;
+    }
+
+    .kiayearcard h3 {
+        color: yellow;
+        font-weight: 800;
+    }
+
+    .chiefquote {
+        background-color: lightgray;
+        padding: 22px;
+        border-left: 6px solid black;
+        font-size: 1.15rem;
+        font-style: italic;
+    }
+
+    .photocredit {
+        font-size: .85rem;
+        margin-top: 6px;
+        color: blue;
+    }
+
+    .reportingsources {
+        background-color: white;
+        padding: 45px 0;
+    }
+
+    .reportingsources li {
+        margin-bottom: 14px;
+    }
+
+    img {
+        margin-bottom: 8px;
+    }
+
+    @media (max-width: 768px) {
+        .dcautotop h1 {
+            font-size: 2.1rem;
+        }
+
+        .dek {
+            font-size: 1.05rem;
+        }
+
+        .storycopy,
+        .chart,
+        .keynumbers,
+        .trendtimeline {
+            padding: 30px 0;
+        }
+    }

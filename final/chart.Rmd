@@ -1,0 +1,26 @@
+```{r}
+library(ggplot2)
+
+dc_thefts <- data.frame(
+  year = c(2021, 2023, 2024, 2025),
+  thefts = c(2500, 6750, 5127, 3933)
+)
+
+View(dc_thefts)
+
+ggplot(dc_thefts, aes(x = year, y = thefts)) +
+  geom_line(linewidth = .7) +
+  geom_point(size = 3) +
+  geom_text(aes(label = thefts), vjust = 2.3) +
+  labs(
+    title = "D.C. motor vehicle thefts peaked in 2023",
+    subtitle = "Thefts rose after 2021 before dropping in 2024 and 2025",
+    x = "Year",
+    y = "Motor vehicle thefts",
+    caption = "Source: Metropolitan Police Department"
+  ) +
+  scale_x_continuous(breaks = dc_thefts$year) +
+  theme_minimal()
+
+ggsave("dc-thefts-line-chart.png", width = 7, height = 5)
+```
